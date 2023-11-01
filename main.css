@@ -1,0 +1,117 @@
+*{
+   
+   padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: #000;
+        list-style: none;
+        font-family: sans-serif;     
+}
+
+header {
+
+        background-image: linear-gradient(90deg, rgb(68, 81, 225),white,snow,rgb(247, 247, 253));
+        padding: 30px 0 ;
+        text-align: center;
+        border: 5px solid red;
+}
+
+
+.thongtin{
+        margin: 120px auto auto 0;
+        margin-left: 480px;
+        display: flex;
+    }
+    .the{
+        background-color:#242628 ;
+        border-radius: 10px;
+        height: 400px;
+        width: 300px;
+        overflow: hidden;
+        
+        text-align: center;
+        margin:0 25px;
+    
+    }
+    .the__img{
+        width: 120px;
+        height: 120px;
+       border: 4px solid #f2726a;
+       border-radius: 50%;
+       margin: 0px auto;
+       overflow: hidden;
+       transform: translate(0,25px);
+       transition: 0.5s;
+    }
+    .the__img img{
+        
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-position: center;
+    }
+    .the h2{
+        margin-top:35px ;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    .the p{
+        margin-top: 15px;
+        color: #f2726a;
+       
+    }
+    
+    .the__button{
+        margin-top: 30px;
+        width: 150px;
+        height: 50px;
+        border: 1px solid #f2726a;
+        background:#21a6da ;
+        color: azure;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+    .the__button:hover{
+        background-color: #4daf54;
+        cursor: pointer;
+    }
+    .the__img:hover{
+        width: 100%;
+        height: 100%;
+        border-radius: unset;
+        transform: unset;
+        border: none;
+    }
+
+
+    footer{
+        line-height: 1.4;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        height: 150px;
+        background-image: linear-gradient(#08ffe6,#fcd200);
+        position: relative;
+        top: 210px;
+    }
+    footer div{
+        margin-top: 30px;
+    }
+    .daichi{
+        margin-left: 20px;
+    }
+    .daichi h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    .banquyen{
+        font-size: 20px;
+        margin: 100px 300px 0 0 ;
+    }
+    ul{
+        margin: 30px 50px 0 0 ;
+        font-size: 20px;
+    }
+
